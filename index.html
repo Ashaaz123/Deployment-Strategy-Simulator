@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Deployment Strategy Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🚀 Deployment Strategy Simulator</h1>
+
+    <div class="pipeline">
+
+        <div class="stage">
+            <h2>Development</h2>
+            <div id="dev" class="box">App v1.0</div>
+        </div>
+
+        <div class="stage">
+            <h2>Testing</h2>
+            <div id="test" class="box"></div>
+        </div>
+
+        <div class="stage">
+            <h2>Production</h2>
+            <div id="prod" class="box"></div>
+        </div>
+
+    </div>
+
+    <button onclick="deploy()">Start Deployment</button>
+
+    <p id="status">Ready to Deploy</p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
